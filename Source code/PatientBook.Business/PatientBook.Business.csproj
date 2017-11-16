@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PatientBook.Core\PatientBook.Core.csproj" />
+    <ProjectReference Include="..\PatientBook.Model\PatientBook.Model.csproj" />
+    <ProjectReference Include="..\Persistence.DAL\Persistence.DAL.csproj" />
+  </ItemGroup>
+
+</Project>
